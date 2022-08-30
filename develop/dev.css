@@ -109,7 +109,7 @@
 
 .window-photo {
     background-color: #f2f8f1;
-    height: 700px;
+    height: 1700px;
     width: 100%;
 }
 
@@ -187,9 +187,63 @@
 }
 
 
-
+.books-website {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
 
 .books-website-jpg { 
     width: 500px;
-    height: 700px;
+    height: 550px;
+    object-fit: cover;
+    background-position: 50% 50%;
+    margin-left: 250px;
+}
+
+
+
+.container-block {
+    
+    background-color: #f2f2f2;
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+}
+
+.container-block h4 {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container-block p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container-block-2 { 
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+
+.container-block-2  h4  {
+    font-family: sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container-block-2 p {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
 }
