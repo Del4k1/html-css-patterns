@@ -1,0 +1,35 @@
+body { 
+    background-color: #3c7784;
+}
+
+.div {
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1 {
+    min-width: 692px;
+    width: 40%;
+    font-size: 50px; 
+    color: white;
+    text-align: left;
+}
+
+p{
+    min-width: 692px;
+    width: 59%;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+img {
+    padding: 20px;
+    min-width: 300px;
+    width: 30%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+}

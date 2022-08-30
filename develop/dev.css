@@ -1,0 +1,195 @@
+
+
+.show-website-h2 { 
+    color: #8bba87;
+    font-family: Montserrat,sans-serif;
+    font-size: 80px;
+    width: 50%;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.show-website-img { 
+    width: 480px;
+    height: 344px;
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.show-website-p {
+    color: #4c604a;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    width: 30%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 560px;
+}
+
+.show-website-button {
+    border-color: #8bba87;
+    border-style: solid;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    background-image: none;
+    margin-top: 30px; 
+    margin-left: 680px;
+    font-family: sans-serif;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background: none;
+}
+
+.show-website-button:hover { 
+    transform: 2s;
+    background: #8bba87;
+    color: white;
+    font-family: sans-serif;
+}
+
+.show-website-h2-numbertwo {
+    color: #8bba87;
+    font-family: Montserrat,sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.show-website-pnumbertwo { 
+    color: #4c604a;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    width: 60%;
+    text-align: center;
+    margin-left: 320px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 450px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.container-website {
+    background-color: #8bba87;
+    width: 300px;
+    height: 350px;
+
+}
+
+.container-website * { 
+    font-family: sans-serif;
+    color: white;
+}
+
+.container-website h4 {
+    border-bottom: 2px solid white;
+    font-size: 30px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container-website p { 
+    margin: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+.window-photo {
+    background-color: #f2f8f1;
+    height: 700px;
+    width: 100%;
+}
+
+.window-container {
+    margin-bottom: 100px;
+    background-color: #8bba87;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+
+.window-container h5 {
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.window-container p { 
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.window-container h6 {
+    position: relative;
+    bottom: 380px;
+    left: 350px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #aacfa7;
+    
+}
+
+.window-container h2 { 
+    font-family: sans-serif;
+    font-size: 37px;
+    color: #8bba87;
+    position: relative;
+    bottom: 400px;
+    left: 350px;
+}
+
+.window-container-numbertwo {
+    background-color: #8bba87;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    bottom: 280px;
+    left: 960px;
+}
+
+.window-container-numbertwo h5 {
+    margin: 20px;
+    padding: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.window-container-numbertwo p { 
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+.books-website-jpg { 
+    width: 500px;
+    height: 700px;
+}
