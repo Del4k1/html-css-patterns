@@ -1,0 +1,34 @@
+
+.title-img { 
+    background-image: url('HousOne.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: right;
+}
+
+.title-img h1 {
+    margin-left: 850px;
+    font-family: sans-serif;
+    font-weight: 700px;
+    width: 458px;
+    line-height: 1.1;
+    color: white;
+    font-size: 6rem;
+}
+
+.title-img p {
+    margin-left: 850px;
+    font-family: sans-serif;
+    color: white;
+    width: 500px;
+    font-size: 17px;
+}
+
+
+
+/***************  ВТОРАЯ СТРАНИЦА  ****************/
