@@ -186,27 +186,30 @@
     text-align: center;
 }
 
-
+/*
 .books-website {
+
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
 
 .books-website-jpg { 
     width: 500px;
-    height: 550px;
+    height: 310px;
     object-fit: cover;
     background-position: 50% 50%;
-    margin-left: 250px;
 }
 
 
 
 .container-block {
-    
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
     background-color: #f2f2f2;
-    width: 300px;
+    width: 355px;
     height: 300px;
     position: relative;
 
@@ -220,30 +223,38 @@
 }
 
 .container-block p {
+    color: #4c604a;
     font-family: sans-serif;
     font-size: 20px;
     margin: 20px;
     padding: 20px;
 }
 
-.container-block-2 { 
-    width: 300px;
+.container-blockTwo { 
+    width: 355px;
     height: 300px;
-    position: relative;
-    top: 200px;
-    left: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.container-block-2  h4  {
+.container-blockTwo h4{
     font-family: sans-serif;
     font-size: 25px;
     margin: 20px;
     padding: 20px;
 }
 
-.container-block-2 p {
+.container-blockTwo p{
+    width: 20%;
+    color: #4c604a;
     font-family: sans-serif;
     font-size: 20px;
     margin: 20px;
     padding: 20px;
 }
+
+*/
+
