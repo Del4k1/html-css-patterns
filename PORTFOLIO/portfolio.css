@@ -1,0 +1,90 @@
+
+
+.container-backround { 
+    background-color: #f2f2f2;
+    display: block;
+    width: 100%;
+    height: 403px;
+}
+
+.container-img { 
+    background-image: url('person.jpg');
+    border-radius: 50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-style: solid;
+    margin: -343px auto 0;
+    border-width: 8px;
+    width: 422px;
+    height: 422px;
+    color: white;
+}
+
+/*    Шрифты    */
+
+
+.container-div h2{
+    font-family:  Roboto,sans-serif;
+    text-transform: uppercase;
+    margin-left: 530px;
+    font-weight: 300;
+    font-size: 3rem;
+    width: 554px;
+}
+
+.container-div p {
+    width: 543px;
+    font-family: Roboto,sans-serif;
+    margin-left: 530px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+/*   ADD картинок   */
+
+.photo-block h1{
+    font-family: Roboto,sans-serif ;
+    font-size: 2.75rem;
+    font-weight: 700;
+    margin-top: 300px;
+    margin-left: 200px;
+}
+
+.MackBook-jpg{      
+    height: 600px;
+    width: 500px;
+    overflow: hidden;
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+    margin-left: 190px;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+
+
+.photo-block-add { 
+    display: flex;
+}
+
+.Men-jpg { 
+    
+    height: 711px;
+    width: 545px;
+    margin-left: 70px;
+    margin-top: 200px;
+    overflow: hidden;
+    z-index: 2;
+    object-fit: cover;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.backround-gray {
+    width: 100%;
+    height: 300px;
+    background-color: #e5e5e5;
+
+}
