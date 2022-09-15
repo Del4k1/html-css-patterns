@@ -1,0 +1,11 @@
+
+.backround-img { 
+    background-image: url('imgs/mobileOne.jpg');
+    width: 900px;
+    height: 900px;
+    background-position-x: 10.5%;
+    background-position-y: 50%;
+    background-size: cover;
+    background-origin: padding-box;
+    object-fit: cover;
+}

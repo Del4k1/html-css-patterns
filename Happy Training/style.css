@@ -1,0 +1,234 @@
+
+.main-page {
+    background-color: #efc241;
+    width: 100%;
+    height: 700px;
+}
+
+.main-img {
+    background-image: url('imgs/1.jpg');
+    background-position-x: 92.16%;
+    background-position-y: 50%;
+    background-size: cover;
+    width: 800px;
+    height: 700px;
+}
+
+.main-text {
+    margin-left: 750px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.main-text h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    width: 80%;
+}
+
+.main-text p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 65%;
+}
+
+/*  ВТОРАЯ СТРАНИЦА  */
+
+.div-block {
+    background-color: #e5e5e5;
+    padding: 0.1px;
+    width: 100%;
+    height: 500px;
+}
+
+.block-text{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+
+.block-text h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    width: 30%;
+}
+
+
+.block-text p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    width: 15%;
+    line-height: 25px;
+}
+
+.block-Big {
+    padding-left: 400px;
+}
+
+.block-orange {
+    
+    background-color: #f59d32;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 750px;
+    left: 600px;
+}
+
+.block-orange h5 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    width: 40%;
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+.block-orange p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: italic;
+    width: 75%;
+    margin-left: 50px;
+}
+
+
+.block-green {
+    background-color: #3c9f62;
+    border-radius: 20px;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: 950px;
+    left: 1000px;
+}
+
+
+.block-green h5 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.block-green p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: italic;
+    width: 75%;
+    margin-left: 50px;
+}
+
+/*   ТЕТЬАЯ СТРАНИЦА   */
+
+.page-div {
+    background-image: url('imgs/2.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    padding: 0.1px;
+}
+
+.page-text {
+    margin-left: 300px;
+    padding-top: 200px;
+}
+
+.page-text h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    width: 30%;
+}
+
+.page-text p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 30%;
+    line-height: 30px;
+}
+
+.img-3 { 
+    background-image: url('imgs/3.jpg');
+    background-position-x: 0%;
+    background-position-y: 50%;
+    background-size: cover;
+    width: 767px;
+    height: 800px;
+    margin-left: 800px;
+    position: absolute;
+    top: 1208px;
+}
+
+/*   ЧЕТВЕРТАЯ СТРАНИЦА   */
+
+.window-block {
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 800px;
+    padding: 0.1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.window-text-img {
+    
+}
+
+.window-text-img h1 {
+    text-align: center;
+    font-family: Ubuntu,sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 52px;
+}
+
+
+
+.window-img {
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.window-img img{ 
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+
+}
+
+.window-img p{
+    color: #b3b3b3;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.window-img h5{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
