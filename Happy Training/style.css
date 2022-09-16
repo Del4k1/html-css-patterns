@@ -182,11 +182,8 @@
 .window-block {
     background-color: #e5e5e5;
     width: 100%;
-    height: 800px;
+    height: 1200px;
     padding: 0.1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 .window-text-img {
@@ -232,3 +229,51 @@
     font-size: 25px;
     margin-top: 20px;
 }
+
+.flex-box { 
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 30px;
+    justify-content: space-around;
+}
+
+
+/*   ПЯТАЯ СТРАНИЦА  */
+
+.Happy-Tips {
+    background-color: #fc9d33;
+    width: 100%;
+    height: 800px;
+}
+
+.img-10 { 
+    background-image: url('imgs/10.jpg');
+    background-position: 50%, 50%;
+    background-size: cover;
+    width: 700px;
+    height: 800px;
+}
+
+.text-Tips {
+    margin-left: 700px;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.text-Tips h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.text-Tips p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    width: 75%;
+}
+
+/* СТРАНИЦА 6*/
