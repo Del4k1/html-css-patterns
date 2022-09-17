@@ -1,0 +1,22 @@
+
+.window {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.window p{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.window input{ 
+    width: 500px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 15px;
+    padding: 15px;
+}
